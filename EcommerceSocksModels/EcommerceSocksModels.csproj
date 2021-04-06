@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageIcon>EcommerceSocksIcon.png</PackageIcon>
+    <Authors>Susana Santos Moreno</Authors>
+    <Company>Tajamar</Company>
+    <Product>Ecommerce Socks Models</Product>
+    <Description>Nugget for my ecommerce app</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\EcommerceSocksIcon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
